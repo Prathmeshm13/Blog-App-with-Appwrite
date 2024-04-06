@@ -1,8 +1,11 @@
 import React from 'react'
+import LogIn from '../components/Login.jsx'
 
 function Login() {
   return (
-    <div>Login</div>
+    <div className='py-8'>
+    <LogIn></LogIn>
+    </div>
   )
 }
 

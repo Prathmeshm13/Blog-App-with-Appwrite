@@ -38,7 +38,7 @@ const router=createBrowserRouter([{
       )
     },
     {
-      path:"/allposts",
+      path:"/all-posts",
       element:(
         <Protected authentication>
         <AllPosts/>
@@ -46,7 +46,7 @@ const router=createBrowserRouter([{
       )
     },
     {
-      path:"/addpost",
+      path:"/add-post",
       element:(
         <Protected authentication>
         <AddPost/>
@@ -54,7 +54,7 @@ const router=createBrowserRouter([{
       )
     },
     {
-      path:"/edit-post/slug:",
+      path:"/edit-post/:slug",
       element:(
         <Protected authentication>
         <EditPost/>
@@ -62,7 +62,7 @@ const router=createBrowserRouter([{
       )
     },
     {
-      path:"/post/slug:",
+      path:"/post/:slug",
       element:(
         <Protected authentication>
         <Post/>
